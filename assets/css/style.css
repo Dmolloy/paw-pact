@@ -1,0 +1,29 @@
+/* Google fonts import*/
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet"');
+
+/* CSS Variables */
+
+:root {
+    --font: "Nunito", sans-serif;
+    --primary-color: #8B5E3C; /* Warm brown*/
+    --secondary-color: #F8F4EC; /* Soft cream*/
+    --highlight-color: 	#6dc0d5; /* Sky blue*/
+}
+
+/* Global styles */
+
+body {
+    font-family: var(--font);
+}
+
+.navbar {
+    background-color: #6dc0d5;
+}
+
+main {
+    background-color: #F8F4EC;
+}
+
+footer {
+    background-color: #8B5E3C;
+}
