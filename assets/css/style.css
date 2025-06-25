@@ -16,8 +16,28 @@ body {
     font-family: var(--font);
 }
 
+h1, h2, h3 {
+    font-family: var(--font);
+}
+
+h1, h2 {
+    text-transform: uppercase;
+}
+
+.section {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+/* Navbar*/
 .navbar {
     background-color: #6dc0d5;
+}
+
+
+/* Header */
+#hero-image {
+    background-color: #F8F4EC;
 }
 
 main {
@@ -27,3 +47,4 @@ main {
 footer {
     background-color: #8B5E3C;
 }
+
