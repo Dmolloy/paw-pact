@@ -36,7 +36,8 @@ h1, h2 {
 
 
 /* Header */
-#hero-image {
+.hero-image {
+    background: url(../images/d og-5671778_1280.jpg) center center / cover no-repeat;
     background-color: #F8F4EC;
 }
 
