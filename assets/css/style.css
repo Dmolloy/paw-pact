@@ -125,6 +125,22 @@ footer {
     border: 0;
 }
 
+/* About us Page */
+
+.about-us h2 {
+    text-transform: uppercase;
+    color: var(--primary-color);
+}
+
+.about-us p {
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+.carousel-inner .carousel-item img {
+    height: 400px;
+    object-fit: cover;
+}
 
 /*
 .btn-small {
