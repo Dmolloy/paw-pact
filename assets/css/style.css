@@ -1,13 +1,13 @@
 /* Google fonts import*/
-@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet"');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
 
 /* CSS Variables */
 
 :root {
     --font: "Nunito", sans-serif;
-    --primary-color: #8B5E3C; /* Warm brown*/
+    --primary-color: hsla(26, 80%, 39%, 0.75); /* Warm brown*/
     --secondary-color: #F8F4EC; /* Soft cream*/
-    --highlight-color: 	#6dc0d5; /* Sky blue*/
+    --highlight-color: 	hsla(191, 57%, 63%, 0.6); /* Sky blue*/
 }
 
 /* Global styles */
@@ -187,13 +187,18 @@ footer {
 
 /* Meet the dogs page */
 .adoption-intro {
-    max-width: 960px;
-    margin: 2rem auto;
-    padding: 2rem;
+    background-color: white; 
+    padding: 1.5rem 1rem;
     text-align: center;
-    background-color: #f9f9f9;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-size: 1rem;
+    font-weight: 500;
+    color: #333;
+    border-top: 2px solid var(--highlight-color);
+    border-bottom: 2px solid var(--highlight-color);
+    margin: 2rem auto;
+    max-width: 960px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 
 .adoption-intro h1 {
@@ -244,7 +249,7 @@ footer {
 }
 
 .dog-card h3 {
-    margin-top: 1rem 0 0.5rem;
+    margin-top: 1rem;
     font-size: 1.5rem;
 }
 
@@ -259,7 +264,6 @@ footer {
 /* Media Queries Tablets and up */
 
 @media (min-width: 768px) and (max-width: 991px) {
-    /* Mission statement container wider */
     .hero-text {
         max-width: 60%;
         margin-right: 3rem;
@@ -276,12 +280,11 @@ footer {
         padding: 3rem 2rem;
     }
 
-    /* Paw icon bigger */
     .paw-icon {
         font-size: 2.5rem;
     }
 
-    /* Cards side by side with controlled width */
+    /* Cards */
     .card {
         width: 100%;
         max-width: 700px;
@@ -289,12 +292,24 @@ footer {
         margin: 0.5rem auto 1rem auto;
     }
 
-    /* Social links bigger and spaced */
+    /* Social links*/
     .social-links a {
         font-size: 2rem;
         margin: 0 30px;
     }
+
+    /* Meet the dogs page*/
+    .adoption-intro {
+        padding: 3rem 2rem;
+        font-size: 1.25rem;
 }
+
+    .dogs-grid {
+        grid-template-columns: 1fr 1fr;
+}
+}
+
+
 
 /* Media Queries - Desktops and up */
 @media (min-width: 992px) {
@@ -334,10 +349,6 @@ footer {
     margin: 0.5rem 0;
     }
 
-    .hero-text .line1::after {
-    content: " "; /
-    }
-
     #contact iframe {
         height: 100%;
         width: 100%;
@@ -359,7 +370,6 @@ footer {
         grid-template-columns: 1fr 1fr;
     }
 
-    /* Mission statement max width bigger */
     .statement {
         margin: 2rem auto;
         max-width: 960px;
@@ -372,7 +382,15 @@ footer {
         min-height: 18rem;
         margin: 0.5rem auto 1rem auto;
     }
+
+    /* Adoption page*/
+    .adoption-intro {
+        padding: 4rem 3rem;
+        font-size: 1.5rem;
 }
+}
+
+
 
 /* Extra large screens*/
 @media (min-width: 1400px) {
