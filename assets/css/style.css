@@ -187,10 +187,34 @@ footer {
 
 /* Meet the dogs page */
 .adoption-intro {
-    max-width: 800px;
-    margin: 2rem;
-    padding: 1rem;
+    max-width: 960px;
+    margin: 2rem auto;
+    padding: 2rem;
     text-align: center;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.adoption-intro h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+.adoption-intro p {
+    text-align: center;
+    font-size: 2rem;
+    margin: 3rem 0 1rem;
+    color: #333;
+}
+
+/* Dogs grid */
+.meet h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin: 3rem 0 1rem;
+    color: var(--highlight-color);
 }
 
 .dogs-grid {
@@ -198,8 +222,8 @@ footer {
     grid-template-columns: 1fr;
     gap: 2rem;
     max-width: 1200px;
-    margin: 2rem auto;
-    padding: 1rem;
+    margin: 0 auto 4rem;
+    padding: 0 1rem;
 }
 
 .dog-card {
@@ -209,24 +233,26 @@ footer {
     text-align: center;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     background: #fff;
-    padding: 1rem;
+    padding-bottom: 1rem;
 }
 
 .dog-card img {
     width: 100%;
-    height: auto;
     object-fit: cover;
     border-radius: 10px;
+    display: block;
 }
 
 .dog-card h3 {
-    margin-top: 1rem;
+    margin-top: 1rem 0 0.5rem;
     font-size: 1.5rem;
 }
 
 .dog-card p {
     font-size: 1rem;
     color: #555;
+    padding: 0 1rem;
+    line-height: 1.4;
 }
 
 
@@ -330,7 +356,7 @@ footer {
     }
 
     .dogs-grid {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: 1fr 1fr;
     }
 
     /* Mission statement max width bigger */
