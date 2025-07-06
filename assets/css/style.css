@@ -31,7 +31,7 @@ h1, h2 {
 
 /* Navbar*/
 .navbar {
-    height: 70px;
+    min-height: 70px;
     background-color: var(--highlight-color);
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
     top: 0;
@@ -42,10 +42,10 @@ h1, h2 {
 }
 
 .logo {
-    height: 160px;
-    max-height: 100%;
+    height: 50px;
     width: auto;
     object-fit: contain;
+    border-radius: 50%;
 }
 
 
@@ -278,6 +278,10 @@ footer {
 /* Media Queries Tablets and up */
 
 @media (min-width: 768px) and (max-width: 991px) {
+    .logo {
+        height: 64px;
+    }
+    
     .hero-text {
         max-width: 60%;
         margin-right: 3rem;
@@ -327,6 +331,9 @@ footer {
 
 /* Media Queries - Desktops and up */
 @media (min-width: 992px) {
+    .logo {
+        height: 80px;
+    }
 
     .header {
         min-height: 90vh;
@@ -390,7 +397,7 @@ footer {
         padding: 3rem 3rem;
     }
 
-    /* Cards bigger */
+    /* Cards */
     .card {
         width: 50%;
         min-height: 18rem;
@@ -408,6 +415,10 @@ footer {
 
 /* Extra large screens*/
 @media (min-width: 1400px) {
+    .logo {
+        height: 100px;
+    }
+
     .hero-text h1 {
         font-size: 5rem;
         line-height: 1.1;
