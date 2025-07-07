@@ -14,10 +14,7 @@
 
 body {
     font-family: var(--font);
-}
-
-h1, h2, h3 {
-    font-family: var(--font);
+    background-color: var(--secondary-color);
 }
 
 h1, h2 {
@@ -83,10 +80,6 @@ h1, h2 {
     text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
 }
 
-/* Main*/
-main {
-    background-color: var(--secondary-color);
-}
 
 /* Mission statement */
 
@@ -106,7 +99,7 @@ main {
 }
 
 .statement p {
-  margin: 2 auto 1rem;
+  margin: 2rem auto 1rem;
   max-width: 100%;
 }
 
@@ -275,12 +268,10 @@ footer {
 }
 
 
+
 /* Media Queries Tablets and up */
 
 @media (min-width: 768px) and (max-width: 991px) {
-    .logo {
-        height: 64px;
-    }
     
     .hero-text {
         max-width: 60%;
@@ -331,9 +322,6 @@ footer {
 
 /* Media Queries - Desktops and up */
 @media (min-width: 992px) {
-    .logo {
-        height: 80px;
-    }
 
     .header {
         min-height: 90vh;
@@ -415,9 +403,6 @@ footer {
 
 /* Extra large screens*/
 @media (min-width: 1400px) {
-    .logo {
-        height: 100px;
-    }
 
     .hero-text h1 {
         font-size: 5rem;
