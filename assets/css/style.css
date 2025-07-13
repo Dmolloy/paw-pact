@@ -1,3 +1,11 @@
+/* Reset and base style*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 /* Google fonts import*/
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
 
@@ -13,6 +21,8 @@
 /* Global styles */
 
 body {
+    width: 100%;
+    overflow-x: hidden;
     font-family: var(--font);
     background-color: var(--secondary-color);
 }
@@ -26,8 +36,16 @@ h1, h2 {
     margin-bottom: 2rem;
 }
 
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
 /* Navbar*/
 .navbar {
+    width: 100%;
     min-height: 70px;
     background-color: var(--highlight-color);
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
@@ -226,7 +244,7 @@ footer {
     text-align: center;
     font-size: 2rem;
     margin: 3rem 0 1rem;
-    color: var(--highlight-color);
+    color: #333;
 }
 
 .dogs-grid {
