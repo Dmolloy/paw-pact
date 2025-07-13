@@ -9,7 +9,6 @@ This was a solo project built using only HTML, CSS, and Bootstrap. It focuses on
 
 Link to deployed site: [Paw-Pact](https://dmolloy.github.io/paw-pact/)
 
-## Site Preview
 
 ## User Experience Design
 
@@ -34,8 +33,6 @@ Google Fonts and Font Awesome libraries were used for this site. The "Nunito" fo
 ### Imagery 
 
 All imagery for this site was sourced from https://pixabay.com/. This was to ensure all images had a certain level of quality and the images were all a consistant in size.
-
-### Wireframes 
 
 ## Features
 
