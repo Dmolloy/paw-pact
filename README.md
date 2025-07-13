@@ -7,7 +7,7 @@ surrendered. We want to care for these dogs, while also trying to find them new 
 
 This was a solo project built using only HTML, CSS, and Bootstrap. It focuses on clean UI, accessibility, and responsiveness for various screen sizes.
 
-## Live Site
+Link to deployed site: [Paw-Pact](https://dmolloy.github.io/paw-pact/)
 
 ## Site Preview
 
@@ -109,8 +109,71 @@ A shop will be added to help build fund the shelter. Merchandise with the shelte
 
 ## Deployment 
 
+The site was deployed to GitHub Pages. The steps to deploy are as follows:
+
+* In the [GitHub repository](https://github.com/Dmolloy/paw-pact), navigate to the Settings tab.
+* From the source section drop-down menu, select the Main Branch, then click "Save".
+* The page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+
+### Locatl Deployment
+
+This project can be cloned or forked in order to make a local copy on your own system.
+
+### Cloning
+
+You can clone the repository by following these steps:
+
+1. Go to the [GitHub repository](https://github.com/Dmolloy/paw-pact).
+2. Locate the Code button above the list of files and click it.
+3. Select if you prefer to clone using HTTPS, SSH, or GitHub CLI and click the copy button to copy the URL to your clipboard.
+4. Open Git Bash or Terminal.
+5. Change the current working directory to the one where you want the cloned directory.
+6. In your IDE Terminal, type the following command to clone my repository:
+* git clone https://github.com/Dmolloy/paw-pact.git
+7. Press Enter to create your local Clone.
+
+### Forking
+
+By forking the GitHub Repository, we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original owner's repository. You can fork this repository by using the following steps:
+
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/Dmolloy/paw-pact).
+2. At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
+3. Once clicked, you should now have a copy of the original repository in your own GitHub account!
+
+## Testing
+
+Testing was carried out on each of the pages on my site with W3C Markup Validator and W3C CSS Validator to ensure there were no issues with the syntax in the project.
+
+* Home page 
+![Validation of home page](documentation/index.png)
+
+* About-Us Page
+![Validation of about-us page](documentation/about-us.png)
+
+* Meet the Dogs Page
+![Validation of Meet the Dogs page](documentation/meet.png)
+
+* Success Page
+![Validation of success page](documentation/success.png)
+
+* CSS 
+![Validation of CSS](documentation/CSS.png)
+
+Testing was also carried out on different browsers (Chrome, Safari, Firefox, Edge) and on mobile and tablet devices. 
+
+There are currently no known bugs that have to be fixed.
+
 ## Credits 
 
-## References
+### Content
+
+* [Bootstrap](https://getbootstrap.com/) - For styling.
+* [Stack Overflow](https://stackoverflow.com/questions) - For help with learning proper syntax and troubleshooting tips
+* [Code Institute](https://codeinstitute.net/) - Love Running and Boardwalk Games walkthrough projects.
+* [W3Schools](https://www.w3schools.com/) - For lessons and learning.
+* [Pixabay](https://pixabay.com/) - All images used on the site were sourced from here.
 
 ## Acknowledgements
+
+I would like to thank [Code Institue](https://codeinstitute.net/) for the opportunity to take part in this course and give me the tools to help me dive into the world of coding!
+The [Slack Community](https://app.slack.com/client/T0L30B202/C01DS0WAHLP) for giving so much advise and always helping me stay motivated during the challenging times.
